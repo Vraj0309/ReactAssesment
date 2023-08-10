@@ -1,0 +1,58 @@
+.mainContainer {
+  width: 400px;
+  height: 400px;
+  margin: 150px auto;
+}
+.formContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.inputNameMain {
+  margin: 20px 0;
+}
+.inputForName {
+  width: 300px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid rgb(187, 185, 185);
+  padding-left: 10px;
+}
+.inputPasswordMain {
+  margin: 20px 0;
+}
+.inputForPassword {
+  width: 300px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid rgb(187, 185, 185);
+  padding-left: 10px;
+}
+.buttonMain {
+  text-align: center;
+  width: 300px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  justify-content: center;
+  border: none;
+  background-color: rgb(85, 85, 162);
+  color: white;
+}
+.headingMain {
+  text-align: center;
+}
+.buttonContainer{
+    text-align: center;
+    margin-left: 48px;
+}
+.buttonMain{
+    cursor: pointer;
+}
+.error{
+  color: red;
+  margin-top: 20px;
+}

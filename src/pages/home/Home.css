@@ -1,0 +1,58 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.quizHeading {
+  padding-left: 10px;
+  font-size: 32px;
+  margin-top: 30px;
+  color: #548bc5;
+}
+.mainCard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.firstCard {
+  width: 32%;
+  height: 363px;
+  padding: 8px;
+}
+.secondCard {
+  width: 32%;
+  height: 350px;
+  cursor: pointer;
+  padding: 8px;
+}
+.thirdCard {
+  width: 32%;
+  padding: 8px;
+  cursor: pointer;
+  height: 350px;
+}
+.imgQuiz {
+  width: 100%;
+  height: 100%;
+}
+.textAndButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.playButton {
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: linear-gradient(
+    to right,
+    #dc763b -146%,
+    #b45d97 -82%,
+    #59b59a -16%,
+    #548bc5 100%,
+    #9ac461 100%
+  );
+}

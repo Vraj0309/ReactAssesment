@@ -1,0 +1,27 @@
+.mainQuizCard {
+  width: 500px;
+  height: 400px;
+  margin: 150px auto;
+  justify-content: center;
+  flex-direction: column;
+}
+.CardHeading {
+  text-align: center;
+}
+.selectButton {
+  display: flex;
+  justify-content: space-between;
+}
+.selectBtn {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #548bc5;
+  border-radius: 6px;
+}
+.quizQuestions{
+    color: red;
+}
